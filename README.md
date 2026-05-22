@@ -8,8 +8,6 @@ Dark mode (screenshot 2):
 
 ![Landing (dark)](/assets/screenshots/landing-dark.png)
 
-> Note: The two screenshots above should be placed in `assets/screenshots/` with the filenames `landing-light.png` and `landing-dark.png`. If you downloaded the images from the design tool or from the attachments, copy them into that folder so they render here.
-
 ## Local development
 
 Requirements:
