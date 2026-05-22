@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --background: #f4f6fc;
+  --foreground: #090d1f;
+  
+  --legal-blue: #1b44f2;
+  --legal-orange: #d96a27;
+  --legal-dark: #221c35;
+  --legal-dark-hover: #171226;
+  --legal-lavender: #b0baf0;
+  --portal-border: #ea580c;
+}
+
+.dark {
+  --background: #090c15;
+  --foreground: #f4f6fc;
+
+  --legal-blue: #3058ff;
+  --legal-orange: #e67533;
+  --legal-dark: #161224;
+  --legal-dark-hover: #0c0a14;
+  --legal-lavender: #919edc;
+}
+
+@theme {
+  --font-sans: var(--font-plus-jakarta-sans), ui-sans-serif, system-ui, sans-serif;
+  
+  --color-legal-blue: var(--legal-blue);
+  --color-legal-orange: var(--legal-orange);
+  --color-legal-dark: var(--legal-dark);
+  --color-legal-dark-hover: var(--legal-dark-hover);
+  --color-legal-lavender: var(--legal-lavender);
+  --color-portal-border: var(--portal-border);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+/* Base custom styles if needed */
+.bg-grid-pattern {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(99, 102, 241, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(99, 102, 241, 0.03) 1px, transparent 1px);
+}
+
+.dark .bg-grid-pattern {
+  background-image: 
+    linear-gradient(to right, rgba(99, 102, 241, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(99, 102, 241, 0.02) 1px, transparent 1px);
+}
