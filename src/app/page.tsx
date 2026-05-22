@@ -46,18 +46,18 @@ export default function Home() {
         </motion.h1>
 
           <p className="text-lg sm:text-[20px] leading-relaxed text-[#3562FF] dark:text-blue-400 font-medium max-w-lg transition-colors">
-            Track matters, coordinate schedules, manage clients, centralize documents, and handle communication - all in one system.
+            Track matters, coordinate schedules, manage <br className="hidden sm:inline" />clients, centralize documents, and handle communication - all in one system.
           </p>
         </div>
 
         <div className="hidden lg:block w-[calc(100%+8rem)] -mx-16 relative h-[380px] mt-2 z-10">
-          <div className="absolute -left-20 top-[15%] w-[10%] h-[80px] rounded-r-full rounded-l-none bg-[#E5EEFB] dark:bg-slate-600/15 origin-left rotate-[-5deg]" />
-          <div className="absolute -left-20 top-[38%] w-[15%] h-[80px] rounded-r-full rounded-l-none bg-[#E5EEFB] dark:bg-slate-600/15" />
-          <div className="absolute -left-20 top-[63%] w-[22%] h-[80px] rounded-r-full rounded-l-none bg-[#E5EEFB] dark:bg-slate-600/15" />
+          <div className="absolute -left-20 top-[0%] w-[11%] h-[80px] rounded-r-full rounded-l-none bg-[#E5EEFB] dark:bg-slate-600/15 origin-left rotate-[-13deg]" />
+          <div className="absolute -left-20 top-[28%] w-[20%] h-[80px] rounded-r-full rounded-l-none bg-[#E5EEFB] dark:bg-slate-600/15" />
+          <div className="absolute -left-20 top-[53%] w-[30%] h-[80px] rounded-r-full rounded-l-none bg-[#E5EEFB] dark:bg-slate-600/15" />
 
-          <div className="absolute -right-20 top-[-10%] w-[10%] h-[80px] rounded-l-full rounded-r-none bg-[#E5EEFB] dark:bg-slate-600/15 origin-right rotate-[3deg]" />
-          <div className="absolute -right-20 top-[-38%] w-[15%] h-[80px] rounded-l-full rounded-r-none bg-[#E5EEFB] dark:bg-slate-600/15" />
-          <div className="absolute -right-20 top-[-62%] w-[22%] h-[80px] rounded-l-full rounded-r-none bg-[#E5EEFB] dark:bg-slate-600/15" />
+          <div className="absolute -right-20 top-[-10%] w-[20%] h-[80px] rounded-l-full rounded-r-none bg-[#E5EEFB] dark:bg-slate-600/15  " />
+          <div className="absolute -right-20 top-[-38%] w-[25%] h-[80px] rounded-l-full rounded-r-none bg-[#E5EEFB] dark:bg-slate-600/15" />
+          <div className="absolute -right-20 top-[-62%] w-[18%] h-[80px] rounded-l-full rounded-r-none bg-[#E5EEFB] dark:bg-slate-600/15 origin-right rotate-[5deg]" />
 
           <div className="pointer-events-auto">
             <FloatingCard
@@ -69,7 +69,7 @@ export default function Home() {
               delay={0.2}
               width={340}
               height={78}
-              className="absolute top-[18%] left-[20%]"
+              className="absolute top-[15%] left-[20%]"
             />
           </div>
 
@@ -97,7 +97,7 @@ export default function Home() {
               delay={0.1}
               width={360}
               height={90}
-              className="absolute top-[-10%] left-[55%]"
+              className="absolute top-[-12%] left-[50%]"
             />
           </div>
 

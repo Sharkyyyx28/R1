@@ -147,10 +147,10 @@ export function FloatingCard({
       >
         {Icon && (
           <div className="flex-shrink-0">
-            <Icon className="w-[18px] h-[18px] md:w-[22px] md:h-[22px]" strokeWidth={2.2} />
+            <Icon className="w-[20px] h-[20px] md:w-[30px] md:h-[30px]" strokeWidth={2.2} />
           </div>
         )}
-        <span className="font-extrabold text-[13px] md:text-[16px] tracking-tight whitespace-nowrap">
+        <span className="font-bold text-[15px] md:text-[22px] tracking-tight whitespace-nowrap">
           {label}
         </span>
       </motion.div>
