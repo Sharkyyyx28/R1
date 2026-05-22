@@ -51,7 +51,7 @@ export default function Home() {
         </div>
 
         <div className="hidden lg:block w-[calc(100%+8rem)] -mx-16 relative h-[380px] mt-2 z-10">
-          <div className="absolute -left-20 top-[0%] w-[11%] h-[80px] rounded-r-full rounded-l-none bg-[#E5EEFB] dark:bg-slate-600/15 origin-left rotate-[-13deg]" />
+          <div className="absolute -left-22 top-[0%] w-[12%] h-[80px] rounded-r-full rounded-l-none bg-[#E5EEFB] dark:bg-slate-600/15 origin-left rotate-[-13deg]" />
           <div className="absolute -left-20 top-[28%] w-[20%] h-[80px] rounded-r-full rounded-l-none bg-[#E5EEFB] dark:bg-slate-600/15" />
           <div className="absolute -left-20 top-[53%] w-[30%] h-[80px] rounded-r-full rounded-l-none bg-[#E5EEFB] dark:bg-slate-600/15" />
 
